@@ -4,18 +4,16 @@ include_once ("php_includes/check_login_status.php");
 include_once ("php_includes/photo_system.php");
 
 $postimage = "post_image";
+$avatar_form = "";
 
-//if(!$user_ok) {
-//    echo("Not logged in");
-//    exit();
-//}
-// Initialize any variables that the page might echo
+
 
 $f_name = "";
 $l_name = "";
 $email = "";
 $isFriend = false;
 $friend_id = -1;
+$friend_name = "";
 $likes = 0;
 $val = "";
 $permission ="";
@@ -24,15 +22,10 @@ $avatar = '';
 $private_posts="";
 $posts="";
 $comments="";
-//$sql = "SELECT posts FROM posts, friends WHERE posts.userid = friends.user_id AND user_id='$userid'";
 
 //Get all public posts from friends and private+public of mine
 $sql = "SELECT * FROM posts WHERE (posts.userid = $userid OR (posts.userid IN (SELECT friend_id FROM friends WHERE user_id = $userid) AND posts.permission='Public')) ORDER BY posts.posted_at DESC";
 $query = mysqli_query($db_connect, $sql);
-
-//Get all user's private posts
-//$sql = "SELECT * FROM posts WHERE posts.userid = '$userid' AND posts.permission = 'Private' ORDER BY posted_at DESC LIMIT 8";
-//$private_query = mysqli_query($db_connect, $sql);
 
 foreach ($query as $p) {
     $posted_by = $p['userid'];
@@ -105,58 +98,12 @@ $posts .= "</div>";
 
              <tr>
              <td><span id ='comment-title'>$user_name ~ $posted_at</span><br/> $comment_body</td>
-             
-
             </tr>
-           
             ";
 
         }
     $posts .= "</tbody></table></div></div></td></tr>";
 }
-
-//foreach ($private_query as $p) {
-//    $posted_by = $p['userid'];
-//    $likes = $p['likes'];
-//    $postid = $p['id'];
-//
-//    //Query: check if the user already liked this post
-//    $sql = "SELECT user_id FROM post_likes WHERE user_id='$userid' AND post_id='$postid'";
-//    $queryy = mysqli_query($db_connect, $sql);
-//    $numrows = mysqli_num_rows($queryy);
-//    if($numrows > 0) {
-//        $val = "Unlike";
-//    }
-//    else { $val = "Like";}
-//
-//    //Get post's comments
-//    $sql = "SELECT * FROM comments WHERE post_id='$postid'";
-//    $comment_query = mysqli_query($db_connect, $sql);
-//
-//    //Get full name of the user who posted
-//    $sql = "SELECT * FROM users WHERE id='$posted_by'";
-//    $sql_query = mysqli_query($db_connect, $sql);
-//    $row = mysqli_fetch_row($sql_query);
-//    $full_name = $row['1']." ".$row['2'];
-//
-//    $private_posts .= $p['body']."
-//    <form id='like' onsubmit='return false;'>
-//        <input id='likebtn$postid' post-id='$postid' type = 'submit' name = 'like_btn' value = '$val' onclick='like($postid)' >
-//    </form>
-//    <div id='posted_by'>$full_name</div>
-//    <div id='likesCount$postid'>$likes Likes</div>
-//    <form data-id='$postid' name='commentform' id='commentform' onsubmit='return false;'>
-//    <textarea name='commentbody' row='3' cols='50'></textarea>
-//    <input type='submit' name='comment' value='Comment' onclick='comment_it($postid)'>
-//    </form>";
-//    foreach ($comment_query as $c) {
-//        $private_posts .= $c['comment']."
-//        <div id='comment-section'>
-//            <hr/>
-//        </div> </br> ";
-//        }
-//    $private_posts .= "<hr/></br></div></td></tr>";
-//}
 
 if(isset($_POST['postid'])) {
     $post = $_POST['postid'];
@@ -219,8 +166,6 @@ if(isset($_POST['t'])) {
         }
 
         echo $v;
-        //echo $msg;
-//        echo $last_id;//postid
         exit();
     }
 }
@@ -277,6 +222,7 @@ if(isset($_GET['e'])) {
         $l_name = $row[2];
         $avatar = $row[5];
         $friend_id = $row[0];
+        $friend_name = $f_name. ' '.$l_name;
 
 
         $sql = "SELECT id FROM friends WHERE user_id='$userid' AND friend_id='$friend_id'";
@@ -339,25 +285,22 @@ if($friend_id == $userid && $user_ok == true){
 <div id="pageMiddle">
     <div id='user_det'>
     <?php if($isOwner) {
-        $avatar_id = "avatar_form";
         $avatar_form  = '<form id="avatar_form" enctype="multipart/form-data" method="post" action="php_includes/photo_system.php">';
         $avatar_form .=   '<h4>Change your avatar</h4>';
         $avatar_form .=   '<input type="file" name="avatar" required>';
         $avatar_form .=   '<p><input type="submit" value="Upload"></p>';
         $avatar_form .= '</form>';
 
-        $profile_pic = "<div id='profile_pic_box'>
-                <img src='$avatar' class='image'>
-                <div class='middle'>
-                    $avatar_form
-</div>
-
-</div>";
     }
         ?>
     <div class="hero-image">
-            <?php echo $profile_pic?>
-            <h1 class="user-title"><?php echo $current_username ?></h1>
+
+        <div id='profile_pic_box'>
+            <img src=<?php echo $avatar?> class='image'>
+            <div class='middle'><?php echo $avatar_form?></div>
+        </div>
+            <h1 class="user-title"><?php echo $friend_name ?></h1>
+
     </div>
     </div>
     <div id="post-wrapper">

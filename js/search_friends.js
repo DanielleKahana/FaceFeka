@@ -72,7 +72,10 @@ function response_handler(request_id, isAccepted) {
             if (isAccepted) {
                 window.open("http://localhost:5000");
             } else {
-                //TODO inform the user the invitation rejected ot timed out
+                _("invite-text").innerText = "Invitation was rejected";
+                _("accept-btn").setAttribute("disabled", "disabled");
+                _("reject-btn").setAttribute("disabled", "disabled");
+
             }
         }
         }

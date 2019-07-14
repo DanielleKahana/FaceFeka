@@ -57,14 +57,13 @@ function comment_it(id, user_name) {
         ajax.onreadystatechange = function() {
             if (ajaxReturn(ajax) == true) {
                 var response = ajax.responseText;
-                if (ajax.responseText == "comment_failed") {
+                if (response == "comment_failed") {
                     _("commentbody" + postid).innerHTML = "Your comment didn't posted, please try again later.";
                 } else {
-                    var check = ajax.responseText;
                     _("commentbody" + postid).value = "";
 
                     //insert new row
-                    _("comment_tbody"+postid).insertAdjacentHTML('afterbegin', "<tr> <td><span id ='comment-title'>"+user_name+" ~ "+check+"</span><br/>"+text+"</td></tr>");
+                    _("comment_tbody"+postid).insertAdjacentHTML('afterbegin', "<tr> <td><span id ='comment-title'>"+user_name+" ~ "+response+"</span><br/>"+text+"</td></tr>");
                 }
             }
         }

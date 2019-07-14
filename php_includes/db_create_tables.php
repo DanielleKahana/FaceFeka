@@ -86,7 +86,6 @@ $tbl_invites = "CREATE TABLE IF NOT EXISTS invites (
                 id INT(11) NOT NULL AUTO_INCREMENT,
                 sender_id INT(11) NOT NULL,
                 friend_id INT(11) NOT NULL,
-                status VARCHAR (255) NOT NULL default 'Pending',
                 sent_at DATETIME NOT NULL,
                 PRIMARY KEY (id)
                 )";

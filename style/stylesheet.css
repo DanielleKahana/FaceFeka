@@ -9,6 +9,10 @@ img {
     border-radius: 50%;
 }
 
+h1, p {
+    color: #333333;
+}
+
 #comment_tbody {
     width: 100%;
 }
@@ -53,14 +57,14 @@ img {
 }
 
 #pageTop > #pageTopWrapper > #pageTopRest > #links {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 20px;
 }
 
 #pageTop > #pageTopWrapper > #pageTopRest > #links a {
     color: white;
     text-decoration: none;
-    margin: 0 24px;
+    margin: 0 15px;
 }
 
 #pageTop > #pageTopWrapper > #pageTopRest > #links a:hover {
@@ -108,13 +112,11 @@ img {
     width: 400px;
 }
 
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+.console-btn {
+    position: relative;
+    display: inline-block;
+    top: 10%;
+    margin-right: 15px;
 }
 
 .dropdown {
@@ -126,18 +128,21 @@ img {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color: black;
+    border-radius: 8px 8px 8px 8px;
+
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.dropdown-content button {
+    position: relative;
+    bottom: 5px;
+    border: 1px solid #415b90;
+    background: #e9ebee;
 }
+
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
@@ -145,8 +150,8 @@ img {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+.dropbtn:hover {
+    opacity: 0.7;
 }
 
 #pageMiddle {
@@ -179,19 +184,87 @@ img {
 #signupform > div {
     margin-top: 12px;
 }
-#signupform > input,select {
-    width: 200px;
-    padding: 3px;
-    background: #F3F9DD;
+#pass1 {
+    display: block;
 }
 #signupbtn {
-    font-size:18px;
-    padding: 12px;
+    font-size:15px;
+    background-color: #609850;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+#signup-status {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+#signup-inner{
+    margin-left: 20px;
+}
+
+#signup-inner > h3 {
+    font-size: 30px;
+}
+
+#signup-inner input {
+    border: none;
+    border-bottom: 2px solid #5657f9;
+    width: 200px;
+    padding: 3px;
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+#login-inner {
+    margin-left:20px;
+}
+
+#login-inner > h3 {
+    font-size: 30px;
+}
+
+#login-inner input {
+    border: none;
+    border-bottom: 2px solid #5657f9;
+    width: 200px;
+    padding: 3px;
+    height: 30px;
+    margin-right: 20px;
 }
 
 #login-section {
     float: left;
     width: 50%;
+}
+
+#login-status {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#login-section button {
+    background-color: #609850;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 20px;
+
 }
 
 #loginform{
@@ -200,11 +273,7 @@ img {
 #loginform > div {
     margin-top: 12px;
 }
-#loginform > input {
-    width: 200px;
-    padding: 3px;
-    background: #F3F9DD;
-}
+
 #loginbtn {
     font-size:15px;
     padding: 10px;
@@ -212,14 +281,20 @@ img {
 
 #logout-wrapper {
     display: inline-block;
+    position: relative;
+    left: 25%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 40px;
 }
+
 
 /***********************************/
 .srbox{
     width:450px;
     /*height:70px;*/
     float:left;
-    margin-top:-6px;
+    /*margin-top:7px;*/
     position:relative;
 }
 .textbox{
@@ -279,6 +354,17 @@ img {
 #notification-section {
     display: inline;
 }
+
+.notification-inner {
+    margin: 0 auto;
+    width: 96%;
+    border-bottom:1px solid #ccc;
+}
+
+.notification-det {
+    margin-left: 5px;
+
+}
 /***********************************/
 .add-friend {
 height: 80%;
@@ -294,6 +380,7 @@ height: 80%;
     width: 15%;
     border: 1px solid #415b90;
     background: #e9ebee;
+    margin-left: 5px;
 }
 
 .avatar {

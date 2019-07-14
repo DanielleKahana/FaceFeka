@@ -12,15 +12,16 @@ if(isset($_POST['response'])) {
     }
 }
 
-$sql = "SELECT * FROM invites WHERE friend_id='$userid' AND sent_at >= now() - INTERVAL 2 minute";
+$sql = "SELECT * FROM invites WHERE friend_id='$userid' AND sent_at >= now() - INTERVAL 10 minute";
 $query = mysqli_query($db_connect, $sql);
 $rowCount = mysqli_num_rows($query);
 
 if($rowCount < 1) {
     echo "
         <div class='notification-inner'>
+        <div class='notification-det'>
                 <p>No Notification</p>
-              
+              </div>
                  </div>
         ";
     exit();
@@ -37,9 +38,11 @@ if($rowCount < 1) {
 
         echo "
         <div class='notification-inner'>
-                <p>$full_name sent you game invitation</p>
-                <button onclick='response_handler($request_id, true)'>Accept</button>
-                <button onclick='response_handler($request_id, false)'>Reject</button>
+        <div id='notifi-det' class='notification-det'>
+                <p id='invite-text'>$full_name sent you game invitation</p>
+                <button id='accept-btn' onclick='response_handler($request_id, true)'>Accept</button>
+                <button id='reject-btn' onclick='response_handler($request_id, false)'>Reject</button>
+                </div>
         </div>
         ";
     }

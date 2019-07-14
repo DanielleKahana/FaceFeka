@@ -28,8 +28,8 @@ if($user_ok) {
                             <div id='livesearch'></div>
                 </div>
                 
-                <div class='dropdown' onmouseenter='showNotifications()' onmouseleave='toggle_element(\"dropdown-content\")'> 
-                    <button id='show_notification' class='dropbtn' >Invites</button>
+                <div class='console-btn' onmouseenter='showNotifications()' onmouseleave='toggle_element(\"dropdown-content\")'> 
+                    <input type='image' src='images/console.png' id='show_notification' class='dropbtn' >
                     <div id='dropdown-content' class='dropdown-content'></div>
                 </div>
                 

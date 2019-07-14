@@ -4,6 +4,7 @@ include_once("php_includes/check_login_status.php");
 
 
 $isFriend = false;
+$isInvited = false;
 
 if(isset($_POST['invite'])){
     $friend_id = $_POST['invite'];
@@ -71,6 +72,15 @@ if(isset($_POST["n"])) {
         }
 
         $f = mysqli_fetch_row($friends_query);
+        $sql = "SELECT * FROM invites WHERE sender_id='$userid' AND friend_id ='$friend_id' AND sent_at >= now() - INTERVAL 10 minute";
+        $invite_query = mysqli_query($db_connect, $sql);
+        $rowCount = mysqli_num_rows($invite_query);
+        if($rowCount > 0) {
+            $isInvited = true;
+        }
+        else {
+            $isInvited = false;
+        }
 
         $s = $s . "
 		<div class='live-outer'>
@@ -83,12 +93,18 @@ if(isset($_POST["n"])) {
                 
                 <div id='friendBtn'>";
         if($isFriend) {
-            $s .= "<button type='submit' id='friendbtn$friend_id' disabled='disabled' name='add' class='add-friend'>Added</button>
-                    
-                    <button type='submit' id='invite$friend_id' name='invite' class='invite-friend' onclick='invite($friend_id)'>Invite</button>
-";
+            $s .= "<button type='submit' id='friendbtn$friend_id' disabled='disabled' name='add' class='add-friend'>Added</button>";
+            if($isInvited) {
+                $s .= "<button type = 'submit' id = 'invite$friend_id' disabled='disabled' name = 'invite' class='invite-friend' onclick = 'invite($friend_id)' >Invited</button >";
+                }
+            else {
+                $s .= "<button type = 'submit' id = 'invite$friend_id' name = 'invite' class='invite-friend' onclick = 'invite($friend_id)' >Invite</button >";
+            }
+
         } else {
-            $s .= "<button type='submit'  id='friendbtn$friend_id' name='add' onclick='add_friend($friend_id)' class='add-friend'>Add</button>";
+            $s .= "<button type='submit'  id='friendbtn$friend_id' name='add' onclick='add_friend($friend_id)' class='add-friend'>Add</button>
+                    
+";
         }
         $s .= "</div></div>";
 
