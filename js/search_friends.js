@@ -28,6 +28,7 @@ function add_friend(friendid) {
             if(ajax.responseText == 'friend_added') {
                 _("friendbtn" + friendid).innerText = "Added";
                 _("friendbtn" + friendid).setAttribute("disabled", "disabled");
+
             }
         }
     }
@@ -42,8 +43,8 @@ function invite(friendid) {
             if(ajax.responseText == 'invited') {
                 _("invite" + friendid).innerText = "Invited";
                 _("invite" + friendid).setAttribute("disabled", "disabled");
-
-                window.open("http://localhost:5000");
+                var hostname = window.location.hostname;
+                window.open("http://" + hostname + ":5000/");
             }
         }
     }
@@ -70,7 +71,8 @@ function response_handler(request_id, isAccepted) {
             if (ajax.responseText == 'done') {
 
             if (isAccepted) {
-                window.open("http://localhost:5000");
+                var hostname = window.location.hostname;
+                window.open("http://" + hostname + ":5000/");
             } else {
                 _("invite-text").innerText = "Invitation was rejected";
                 _("accept-btn").setAttribute("disabled", "disabled");

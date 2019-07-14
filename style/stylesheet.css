@@ -7,6 +7,7 @@ body {
 
 img {
     border-radius: 50%;
+
 }
 
 h1, p {
@@ -481,10 +482,11 @@ height: 80%;
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
     transition: .5s ease;
     backface-visibility: hidden;
+    object-fit: cover;
 }
 
 #profile_pic_box:hover .image {

@@ -12,8 +12,9 @@ if($user_ok) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FaceFeka</title>
+    <title>Facefeka</title>
     <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <script src="js/main.js"></script>
     <script src="js/search_friends.js"></script>
     <script src="js/ajaxModule.js"></script>

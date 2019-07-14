@@ -1,13 +1,6 @@
 <?php
 include_once("php_includes/db_connect.php");
 include_once("php_includes/check_login_status.php");
-
-if($user_ok){
-    echo "Logged in";
-    //TODO
-//    header("location: localhost:8090/FaceFeka/profile.php?e=");
-    exit();
-}
 ?>
 <?php
 function encryptPassword($pass) {

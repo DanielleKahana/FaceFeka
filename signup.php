@@ -70,39 +70,3 @@ if(isset($_POST["f"])){
 
 }
 ?>
-
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <title>SignUp</title>-->
-<!--    <link rel="stylesheet" href="style/stylesheet.css">-->
-<!--    <script src="js/main.js"></script>-->
-<!--    <script src="js/ajaxModule.js"></script>-->
-<!--    <script src="js/signup_form.js"></script>-->
-<!--</head>-->
-<!--<body>-->
-<?php //include_once ("php_includes/pageTop_template.php"); ?>
-<!--<div id="pageMiddle">-->
-<!--    <h3>Create a New Account</h3>-->
-<!--    <form name="signupform" id="signupform" onsubmit="return false;">-->
-<!--        <div>First Name:</div>-->
-<!--        <input id="f_name" type="text" onfocus="emptyElement('status')" onkeyup="restrict('f_name')" maxlength="88">-->
-<!--        <div>Last Name:</div>-->
-<!--        <input id="l_name" type="text" onfocus="emptyElement('status')" onkeyup="restrict('l_name')" maxlength="88">-->
-<!--        <div>Email Address:</div>-->
-<!--        <input id="email" type="text" onfocus="emptyElement('status')" onblur="check_email()" onkeyup="restrict('email')" maxlength="88">-->
-<!--        <span id="unamestatus"></span>-->
-<!--        <div>Create Password:</div>-->
-<!--        <input id="pass1" type="password" onfocus="emptyElement('status')" maxlength="100">-->
-<!--        <div>Confirm Password:</div>-->
-<!--        <input id="pass2" type="password" onfocus="emptyElement('status')" maxlength="100">-->
-<!--        <br /><br />-->
-<!--        <button id="signupbtn" onclick="signup()">Sign Up</button>-->
-<!--        <span id="status"></span>-->
-<!--    </form>-->
-<!---->
-<!--</div>-->
-<?php //include_once ("php_includes/pageBottom_template.php"); ?>
-<!--</body>-->
-<!--</html>-->

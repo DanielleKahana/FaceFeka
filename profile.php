@@ -23,8 +23,36 @@ $private_posts="";
 $posts="";
 $comments="";
 
+if(isset($_GET['e'])) {
+    $email = $_GET['e'];
+    $sql = "SELECT * FROM users WHERE email='$email' LIMIT 1";
+    $query = mysqli_query($db_connect, $sql);
+    $numrows = mysqli_num_rows($query);
+    if ($numrows < 1) {
+        echo('User not found!');
+        exit();
+    }
+    else {
+        $row = mysqli_fetch_row($query);
+        $f_name = $row[1];
+        $l_name = $row[2];
+        $avatar = $row[5];
+        $friend_id = $row[0];
+        $friend_name = $f_name. ' '.$l_name;
+
+
+        $sql = "SELECT id FROM friends WHERE user_id='$userid' AND friend_id='$friend_id'";
+        $query = mysqli_query($db_connect, $sql);
+        $numrows = mysqli_num_rows($query);
+
+        if($numrows != 0) {
+            $isFriend = true;
+        }
+    }
+}
+
 //Get all public posts from friends and private+public of mine
-$sql = "SELECT * FROM posts WHERE (posts.userid = $userid OR (posts.userid IN (SELECT friend_id FROM friends WHERE user_id = $userid) AND posts.permission='Public')) ORDER BY posts.posted_at DESC";
+$sql = "SELECT * FROM posts WHERE (posts.userid = '$friend_id' OR (posts.userid IN (SELECT friend_id FROM friends WHERE user_id = '$friend_id') AND posts.permission='Public')) ORDER BY posts.posted_at DESC";
 $query = mysqli_query($db_connect, $sql);
 
 foreach ($query as $p) {
@@ -65,7 +93,7 @@ else { $val = "Like";}
         $p['body']."</div>
     <div id='post_images$postid'>";
     foreach ($images_query as $img) {
-    $posts .= "<a class='posted-image' href='" . $path ."pictures/". $img['filename'] . "'><img class='normal-img' src='" . $path ."thumb/". $img['filename'] . "'></a>";
+    $posts .= "<a target='_blank' class='posted-image' href='" . $path ."pictures/". $img['filename'] . "'><img class='normal-img' src='" . $path ."thumb/". $img['filename'] . "'></a>";
     }
 $posts .= "</div>";
     if($posted_by == $userid){
@@ -207,56 +235,6 @@ if(isset($_POST['changePermission'])) {
 }
 
 
-if(isset($_GET['e'])) {
-    $email = $_GET['e'];
-    $sql = "SELECT * FROM users WHERE email='$email' LIMIT 1";
-    $query = mysqli_query($db_connect, $sql);
-    $numrows = mysqli_num_rows($query);
-    if ($numrows < 1) {
-        echo('User not found!');
-        exit();
-    }
-    else {
-        $row = mysqli_fetch_row($query);
-        $f_name = $row[1];
-        $l_name = $row[2];
-        $avatar = $row[5];
-        $friend_id = $row[0];
-        $friend_name = $f_name. ' '.$l_name;
-
-
-        $sql = "SELECT id FROM friends WHERE user_id='$userid' AND friend_id='$friend_id'";
-        $query = mysqli_query($db_connect, $sql);
-        $numrows = mysqli_num_rows($query);
-
-        if($numrows != 0) {
-            $isFriend = true;
-        }
-
-        if(isset($_POST["add"])) {
-            if ($numrows < 1) {
-                $sql = "INSERT INTO friends(user_id, friend_id) VALUES ('$userid', '$friend_id')";
-                $query = mysqli_query($db_connect, $sql);
-
-                $sql = "INSERT INTO friends(user_id, friend_id) VALUES ('$friend_id', '$userid')";
-                $query = mysqli_query($db_connect, $sql);
-
-                $isFriend = true;
-            }
-        }
-
-        if(isset($_POST["remove"])) {
-            if($numrows != 0) {
-                $sql = "DELETE FROM friends WHERE user_id='$userid' AND friend_id='$friend_id'";
-                $query = mysqli_query($db_connect, $sql);
-            }
-            $isFriend = false;
-        }
-
-
-    }
-}
-
 // Check to see if the viewer is the account owner
 $isOwner = false;
 if($friend_id == $userid && $user_ok == true){
@@ -273,6 +251,7 @@ if($friend_id == $userid && $user_ok == true){
     <meta charset="UTF-8">
     <title>Profile</title>
     <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/ajaxModule.js"></script>
@@ -308,7 +287,7 @@ if($friend_id == $userid && $user_ok == true){
         <?php
         if($isOwner) {
             echo "
-         <textarea id = 'postbody' name='postbody' rows = '5' cols = '80' placeholder='What&apos;s on your mind, $f_name?'></textarea >
+         <textarea onfocus='emptyElement(\"post-status\")' id = 'postbody' name='postbody' rows = '5' cols = '80' placeholder='What&apos;s on your mind, $f_name?'></textarea >
          <div id='post-attr'>
           <input id='uploadImage' type='file' name='image[]' accept=\"image/*\" multiple>
           <div id='radio-buttons'>

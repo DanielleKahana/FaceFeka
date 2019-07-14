@@ -51,7 +51,7 @@ $(document).ready(function (e) {
                         var path = "user/" + email + "/";
 
                         for (var i = 0; i < fileNames.length; i++) {
-                            html += "<a class='posted-image' href='" + path +"pictures/"+ fileNames[i] + "'><img class='normal-img' src='" + path +"thumb/"+ fileNames[i] + "'></a>";
+                            html += "<a target='_blank' class='posted-image' href='" + path +"pictures/"+ fileNames[i] + "'><img class='normal-img' src='" + path +"thumb/"+ fileNames[i] + "'></a>";
                         }
                         $("#post_images" + postid).append(html);
                     }

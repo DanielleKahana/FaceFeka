@@ -12,7 +12,7 @@ if(isset($_POST['response'])) {
     }
 }
 
-$sql = "SELECT * FROM invites WHERE friend_id='$userid' AND sent_at >= now() - INTERVAL 10 minute";
+$sql = "SELECT * FROM invites WHERE friend_id='$userid' AND sent_at >= now() - INTERVAL 5 minute";
 $query = mysqli_query($db_connect, $sql);
 $rowCount = mysqli_num_rows($query);
 

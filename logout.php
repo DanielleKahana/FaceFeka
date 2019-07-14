@@ -24,6 +24,7 @@ if (isset($_POST['confirm'])) {
     <meta charset="UTF-8">
     <title>Log Out</title>
     <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <script src="js/main.js"></script>
     <script src="js/ajaxModule.js"></script>
 </head>
