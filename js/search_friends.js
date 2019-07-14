@@ -35,17 +35,54 @@ function add_friend(friendid) {
 }
 
 
-function httpGet() {
-    // var xmlHttp = new XMLHttpRequest();
-    // xmlHttp.open("GET", "http://localhost:5000", true);
-    setTimeout(explode, 5000);
+function invite(friendid) {
+    var ajax = ajaxObj("POST", "live_search.php");
+    ajax.onreadystatechange = function() {
+        if(ajaxReturn(ajax) == true) {
+            if(ajax.responseText == 'invited') {
+                _("invite" + friendid).innerText = "Invited";
+                _("invite" + friendid).setAttribute("disabled", "disabled");
+
+                window.open("http://localhost:5000");
+            }
+        }
+    }
+    ajax.send("invite="+friendid);
 
 }
 
-function explode(){
-    window.open("http://localhost:5000");
-
+function showNotifications() {
+    var ajax = ajaxObj("GET", "game_notifications.php");
+    ajax.onreadystatechange = function() {
+        if(ajaxReturn(ajax) == true) {
+            _("dropdown-content").innerHTML=ajax.responseText;
+            _("dropdown-content").style.display="block";
+        }
+    }
+    ajax.send();
 }
+
+function response_handler(request_id, isAccepted) {
+    var ajax = ajaxObj("POST", "game_notifications.php");
+    ajax.onreadystatechange = function() {
+        if(ajaxReturn(ajax) == true) {
+            var res = ajax.responseText;
+            if (ajax.responseText == 'done') {
+
+            if (isAccepted) {
+                window.open("http://localhost:5000");
+            } else {
+                //TODO inform the user the invitation rejected ot timed out
+            }
+        }
+        }
+    }
+    ajax.send("response="+request_id);
+}
+
+
+
+
 
 
 

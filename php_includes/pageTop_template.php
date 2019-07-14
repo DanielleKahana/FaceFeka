@@ -1,6 +1,6 @@
 <?php
 include_once ("php_includes/check_login_status.php");
-include_once ("playGame.php");
+
 
 $current_username = "";
 
@@ -21,14 +21,20 @@ if($user_ok) {
             <!-- contains the search bar, link to homepage and user settings  -->
             <div id="links">
                 <?php if($user_ok) { echo "
+                
                 <div class='srbox'>
                             <input type='text' onKeyUp='search(this.value)' autocomplete='off' name='qu' id='qu' class='textbox' placeholder='Search Friends...' tabindex='1'>
                             <button type='submit' class='query-submit' tabindex='2'><img class='normal-img' src='images/magnifier.png'></button>
                             <div id='livesearch'></div>
                 </div>
+                
+                <div class='dropdown' onmouseenter='showNotifications()' onmouseleave='toggle_element(\"dropdown-content\")'> 
+                    <button id='show_notification' class='dropbtn' >Invites</button>
+                    <div id='dropdown-content' class='dropdown-content'></div>
+                </div>
+                
                 <div class='dropdown'>
                         <a href='profile.php?e=$email' id='username'>$current_username</a>
-                        
                 </div>
                 <a href='logout.php' >Log Out</a>";
             } ?>

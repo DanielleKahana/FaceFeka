@@ -1,9 +1,21 @@
 <?php
 include_once("php_includes/db_connect.php");
 include_once("php_includes/check_login_status.php");
-include_once ("playGame.php");
+
 
 $isFriend = false;
+
+if(isset($_POST['invite'])){
+    $friend_id = $_POST['invite'];
+
+    $sql = "INSERT INTO invites(sender_id, friend_id, sent_at) VALUES ('$userid', '$friend_id', NOW())";
+    $query = mysqli_query($db_connect, $sql);
+
+    if($query) {
+        echo "invited";
+        exit();
+    }
+}
 
 if(isset($_POST['fid'])) {
     $friend_id = $_POST['fid'];
@@ -73,18 +85,13 @@ if(isset($_POST["n"])) {
         if($isFriend) {
             $s .= "<button type='submit' id='friendbtn$friend_id' disabled='disabled' name='add' class='add-friend'>Added</button>
                     
-                    <button type='submit' id='invite$friend_id' name='invite' class='invite-friend' onclick='httpGet()'>Invite</button>
+                    <button type='submit' id='invite$friend_id' name='invite' class='invite-friend' onclick='invite($friend_id)'>Invite</button>
 ";
         } else {
             $s .= "<button type='submit'  id='friendbtn$friend_id' name='add' onclick='add_friend($friend_id)' class='add-friend'>Add</button>";
         }
         $s .= "</div></div>";
 
-//
-//                <button type='submit' name='add' class='add-friend'>Add</button>
-//            </div>
-
-//	";
     }
     echo $s;
 }

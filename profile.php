@@ -357,7 +357,7 @@ if($friend_id == $userid && $user_ok == true){
         ?>
     <div class="hero-image">
             <?php echo $profile_pic?>
-            <h1 class="user-title"><?php echo $full_name ?></h1>
+            <h1 class="user-title"><?php echo $current_username ?></h1>
     </div>
     </div>
     <div id="post-wrapper">
