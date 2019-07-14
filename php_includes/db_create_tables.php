@@ -37,15 +37,7 @@ $tbl_posts = "CREATE TABLE IF NOT EXISTS posts (
                 )";
 $query = mysqli_query($db_connect, $tbl_posts);
 
-//Blocked Users Table
-$tbl_blockedusers = "CREATE TABLE IF NOT EXISTS blockedusers ( 
-                id INT(11) NOT NULL AUTO_INCREMENT,
-                blocker VARCHAR(16) NOT NULL,
-                PRIMARY KEY (id) 
-                )";
-
-$query = mysqli_query($db_connect, $tbl_blockedusers);
-
+//Images Table
 $tbl_images = "CREATE TABLE IF NOT EXISTS images ( 
                 id INT(11) NOT NULL AUTO_INCREMENT,
                 user_id VARCHAR(16) NOT NULL,
@@ -55,6 +47,7 @@ $tbl_images = "CREATE TABLE IF NOT EXISTS images (
                 )";
 $query = mysqli_query($db_connect, $tbl_images);
 
+//Token Table(Cookies)
 $tbl_tokens = "CREATE TABLE IF NOT EXISTS login_tokens ( 
                 id INT(11) NOT NULL AUTO_INCREMENT,
                 token CHAR(64) NOT NULL, 
@@ -64,6 +57,7 @@ $tbl_tokens = "CREATE TABLE IF NOT EXISTS login_tokens (
                 )";
 $query = mysqli_query($db_connect, $tbl_tokens);
 
+//Post's Likes Table
 $tbl_post_likes = "CREATE TABLE IF NOT EXISTS post_likes ( 
                 id INT(11) NOT NULL AUTO_INCREMENT,
                 post_id INT(64) NOT NULL, 
@@ -72,6 +66,7 @@ $tbl_post_likes = "CREATE TABLE IF NOT EXISTS post_likes (
                 )";
 $query = mysqli_query($db_connect, $tbl_post_likes);
 
+//Post's Comments Table
 $tbl_comments = "CREATE TABLE IF NOT EXISTS comments ( 
                 id INT(11) NOT NULL AUTO_INCREMENT,
                 post_id INT(64) NOT NULL, 
@@ -82,6 +77,7 @@ $tbl_comments = "CREATE TABLE IF NOT EXISTS comments (
                 )";
 $query = mysqli_query($db_connect, $tbl_comments);
 
+//Game Invitation Table
 $tbl_invites = "CREATE TABLE IF NOT EXISTS invites ( 
                 id INT(11) NOT NULL AUTO_INCREMENT,
                 sender_id INT(11) NOT NULL,

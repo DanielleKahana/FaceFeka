@@ -5,21 +5,18 @@ include_once ("php_includes/photo_system.php");
 
 $postimage = "post_image";
 $avatar_form = "";
-
-
-
 $f_name = "";
 $l_name = "";
 $email = "";
 $isFriend = false;
-$friend_id = -1;
-$friend_name = "";
+$current_profile_id = -1;
+$current_profile_name = "";
 $likes = 0;
 $val = "";
 $permission ="";
 $avatar = '';
 
-$private_posts="";
+
 $posts="";
 $comments="";
 
@@ -37,11 +34,11 @@ if(isset($_GET['e'])) {
         $f_name = $row[1];
         $l_name = $row[2];
         $avatar = $row[5];
-        $friend_id = $row[0];
-        $friend_name = $f_name. ' '.$l_name;
+        $current_profile_id = $row[0];
+        $current_profile_name = $f_name. ' '.$l_name;
 
 
-        $sql = "SELECT id FROM friends WHERE user_id='$userid' AND friend_id='$friend_id'";
+        $sql = "SELECT id FROM friends WHERE user_id='$userid' AND friend_id='$current_profile_id'";
         $query = mysqli_query($db_connect, $sql);
         $numrows = mysqli_num_rows($query);
 
@@ -52,7 +49,7 @@ if(isset($_GET['e'])) {
 }
 
 //Get all public posts from friends and private+public of mine
-$sql = "SELECT * FROM posts WHERE (posts.userid = '$friend_id' OR (posts.userid IN (SELECT friend_id FROM friends WHERE user_id = '$friend_id') AND posts.permission='Public')) ORDER BY posts.posted_at DESC";
+$sql = "SELECT * FROM posts WHERE (posts.userid = '$current_profile_id' OR (posts.userid IN (SELECT friend_id FROM friends WHERE user_id = '$current_profile_id') AND posts.permission='Public')) ORDER BY posts.posted_at DESC";
 $query = mysqli_query($db_connect, $sql);
 
 foreach ($query as $p) {
@@ -75,8 +72,8 @@ else { $val = "Like";}
     $sql = "SELECT * FROM users WHERE id='$posted_by'";
     $sql_query = mysqli_query($db_connect, $sql);
     $row = mysqli_fetch_row($sql_query);
-    $full_name = $row['1']." ".$row['2'];
-    $user_email = $row['3'];
+    $post_author_full_name = $row['1']." ".$row['2'];
+    $post_author_email = $row['3'];
 
     //Get post's comments
     $sql = "SELECT * FROM comments WHERE post_id='$postid' ORDER BY posted_at DESC";
@@ -86,7 +83,7 @@ else { $val = "Like";}
     $sql = "SELECT filename FROM posts JOIN images ON posts.id = images.post_id WHERE posts.id='$postid'";
     $images_query = mysqli_query($db_connect, $sql);
 
-    $path = "user/". $user_email . "/";
+    $path = "user/". $post_author_email . "/";
 
     $posts .=
      "<tr><td><div class='post-wrapper'><div id='post-body'>".
@@ -99,7 +96,7 @@ $posts .= "</div>";
     if($posted_by == $userid){
     $posts .= "<input class='permission-btn' type='image' src='images/$permission.png' id='permissionbtn$postid' onclick='change_status($postid)' value='$permission'>";
     }
-    $posts .= "<div id='posted_by'>$full_name <img class='normal-img' src='images/calendar.png'> $posted_at </div>
+    $posts .= "<div id='posted_by'>$post_author_full_name <img class='normal-img' src='images/calendar.png'> $posted_at </div>
     <form id='like' onsubmit='return false;'>
         <img class='normal-img' src='images/heart.png'>
         <div id='likesCount$postid' style='display: inline;'>$likes</div>
@@ -118,14 +115,14 @@ $posts .= "</div>";
         $sql = "SELECT * FROM users WHERE id='$comment_by'";
         $comment_by_query = mysqli_query($db_connect, $sql);
         $r = mysqli_fetch_row($comment_by_query);
-        $user_name = $r['1']." ".$r['2'];
+        $comment_author_full_name = $r['1']." ".$r['2'];
         $posted_at = $c['posted_at'];
         $comment_body = $c['comment'];
 
         $posts .= "
 
              <tr>
-             <td><span id ='comment-title'>$user_name ~ $posted_at</span><br/> $comment_body</td>
+             <td><span id ='comment-title'>$comment_author_full_name ~ $posted_at</span><br/> $comment_body</td>
             </tr>
             ";
 
@@ -145,7 +142,7 @@ if(isset($_POST['postid'])) {
         $sql = "UPDATE posts SET likes=likes-1 WHERE id='$post'";
         $query = mysqli_query($db_connect, $sql);
 
-        //Query: delete into post_likes who liked this post
+        //Query: delete from post_likes record
         $sql = "DELETE FROM post_likes WHERE post_id='$post' AND user_id='$userid'";
         $query = mysqli_query($db_connect, $sql);
     } else {
@@ -172,7 +169,7 @@ if(isset($_POST['postid'])) {
 
 if(isset($_POST['t'])) {
     $msg = "";
-    $text = htmlspecialchars($_POST['t']);
+    $text = htmlspecialchars($_POST['t'], ENT_QUOTES);
     $per = $_POST['p'];
 
     if($per == 'true') {
@@ -199,7 +196,7 @@ if(isset($_POST['t'])) {
 }
 
 if(isset($_POST['c'])) {
-    $text = htmlspecialchars($_POST['c']);
+    $text = htmlspecialchars($_POST['c'],ENT_QUOTES);
     $postid = $_POST['post'];
 
     $sql = "INSERT INTO comments (post_id, user_id, comment, posted_at) VALUES('$postid', '$userid','$text', NOW())";
@@ -237,7 +234,7 @@ if(isset($_POST['changePermission'])) {
 
 // Check to see if the viewer is the account owner
 $isOwner = false;
-if($friend_id == $userid && $user_ok == true){
+if($current_profile_id == $userid && $user_ok == true){
     $isOwner = true;
 }
 
@@ -269,17 +266,14 @@ if($friend_id == $userid && $user_ok == true){
         $avatar_form .=   '<input type="file" name="avatar" required>';
         $avatar_form .=   '<p><input type="submit" value="Upload"></p>';
         $avatar_form .= '</form>';
-
     }
         ?>
     <div class="hero-image">
-
         <div id='profile_pic_box'>
-            <img src=<?php echo $avatar?> class='image'>
+            <img class='image' src=<?php echo $avatar?>>
             <div class='middle'><?php echo $avatar_form?></div>
         </div>
-            <h1 class="user-title"><?php echo $friend_name ?></h1>
-
+            <h1 class="user-title"><?php echo $current_profile_name ?></h1>
     </div>
     </div>
     <div id="post-wrapper">
@@ -311,7 +305,6 @@ if($friend_id == $userid && $user_ok == true){
     <div id="posts">
         <table id="poststb">
             <tbody id="tbody">
-
         <?php echo $posts; ?>
             </tbody>
         </table>

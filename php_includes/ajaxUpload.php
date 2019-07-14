@@ -6,7 +6,7 @@ if (!empty($_POST['postbody']) && !empty($_POST['permission'])) {
     $msg = "success";
     $hasFiles = false;
     $result = array();
-    $text = htmlspecialchars($_POST['postbody']);
+    $text = htmlspecialchars($_POST['postbody'], ENT_QUOTES);
     $per = $_POST['permission'];
 
     $sql = "INSERT INTO posts (body,userid,posted_at,permission) VALUES('$text', '$userid', NOW() , '$per')";
