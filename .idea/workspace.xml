@@ -1,82 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c020c74-be0b-478d-8afb-bac6af89b61b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/login_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/search_friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/friends.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/uploadScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/upload_image_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/live_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_includes/ajaxUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_includes/image_upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_includes/db_create_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_includes/db_create_tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_includes/photo_system.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_includes/photo_system.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/headerSleeve.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/headerSleeve.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/pictures/005-mexico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/pictures/Cancun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/pictures/Finland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/profile.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/thumb/005-mexico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/thumb/Cancun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/thumb/Finland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-00.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-01.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-02.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-03.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/003-flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/004-tanzania.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/005-mexico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/006-finland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/01-15.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/5EF17880-F9C9-498E-B726-AC84E30787C0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/IMG_7260.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/boy-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/boy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/dash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/girl-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/girl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/man-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/man-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/star-wallpapers-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-00.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-01.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-02.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-03.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/003-flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/004-tanzania.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/005-mexico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/006-finland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/01-15.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/5EF17880-F9C9-498E-B726-AC84E30787C0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/IMG_7260.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/boy-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/boy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/dash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/girl-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/girl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/man-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/man-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/star-wallpapers-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/el@professor.com/.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/gucci@theking.com/.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/hagar@peretz.com/.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/new@user.com/profile.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/new@user.com/profile.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/ran@weiner.com/.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/will@h.com/profile.png" beforeDir="false" />
-    </list>
+    <list default="true" id="9c020c74-be0b-478d-8afb-bac6af89b61b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="158" column="22" lean-forward="true" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+            <state relative-caret-position="1275">
+              <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -343,8 +268,11 @@
     <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/flappybird" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -414,12 +342,12 @@
       <workItem from="1561970879968" duration="113604000" />
       <workItem from="1562517460051" duration="180077000" />
       <workItem from="1563551722307" duration="9138000" />
-      <workItem from="1564573180344" duration="1451000" />
+      <workItem from="1564573180344" duration="2138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339732000" />
+    <option name="totallyTimeSpent" value="340419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,9 +360,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22844176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.20499243" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -448,7 +375,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -713,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="158" column="22" lean-forward="true" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+        <state relative-caret-position="1275">
+          <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
         </state>
       </provider>
     </entry>
