@@ -1,7 +1,7 @@
 # <img src="images/favicon.png"> FaceFeka
 Facebook clone is my final project to Internet Technologies course at Afeka College of Engineering. 
 
-Features included:
+# Features
 - Signup
 - Login
 - Profile page
