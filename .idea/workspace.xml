@@ -3,8 +3,79 @@
   <component name="ChangeListManager">
     <list default="true" id="9c020c74-be0b-478d-8afb-bac6af89b61b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/search_friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/friends.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/uploadScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/upload_image_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/live_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/live_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_includes/ajaxUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_includes/image_upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php_includes/db_create_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_includes/db_create_tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_includes/photo_system.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_includes/photo_system.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/headerSleeve.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/headerSleeve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/pictures/005-mexico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/pictures/Cancun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/pictures/Finland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/profile.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/thumb/005-mexico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/thumb/Cancun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ariel@gmail.com/thumb/Finland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-00.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-01.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-02.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/00-03.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/003-flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/004-tanzania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/005-mexico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/006-finland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/01-15.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/5EF17880-F9C9-498E-B726-AC84E30787C0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/IMG_7260.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/boy-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/boy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/girl-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/man-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/man-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/pictures/star-wallpapers-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-00.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-01.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-02.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/00-03.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/003-flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/004-tanzania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/005-mexico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/006-finland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/01-15.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/5EF17880-F9C9-498E-B726-AC84E30787C0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/IMG_7260.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/boy-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/boy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/dash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/girl-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/man-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/man-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/danielle@kahana.com/thumb/star-wallpapers-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/el@professor.com/.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/gucci@theking.com/.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/hagar@peretz.com/.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/new@user.com/profile.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/new@user.com/profile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/ran@weiner.com/.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/will@h.com/profile.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,34 +100,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php_includes/pageTop_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/search_friends.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Login.php">
+        <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
@@ -65,28 +109,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/live_search.php">
+        <entry file="file://$PROJECT_DIR$/php_includes/db_create_tables.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="93" column="34" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="34" />
+            <state relative-caret-position="1666">
+              <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/stylesheet.css">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="485" column="17" selection-start-line="485" selection-start-column="17" selection-end-line="485" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php_includes/pageBottom_template.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profile.php">
+        <entry file="file://$PROJECT_DIR$/style/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="314" column="5" selection-start-line="314" selection-start-column="2" selection-end-line="314" selection-end-column="5" />
+            <state relative-caret-position="194">
+              <caret line="158" column="22" lean-forward="true" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ajaxModule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php_includes/pageTop_template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php_includes/image_resize.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/friends.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/live_search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,11 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>notification</find>
-      <find>button</find>
-      <find>det</find>
-      <find>notifica</find>
-      <find>profile_pic</find>
       <find>'c'</find>
       <find>avatar_form</find>
       <find>current</find>
@@ -134,6 +223,11 @@
       <find>minute</find>
       <find>toggle</find>
       <find>$postimage</find>
+      <find>htmlspecial</find>
+      <find>htm</find>
+      <find>Login</find>
+      <find>['t']</find>
+      <find>$permission</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\FaceFeka\</dir>
@@ -170,27 +264,28 @@
         <option value="$PROJECT_DIR$/js/login_form.js" />
         <option value="$PROJECT_DIR$/js/signup_form.js" />
         <option value="$PROJECT_DIR$/php_includes/check_login_status.php" />
-        <option value="$PROJECT_DIR$/php_includes/ajaxUpload.php" />
         <option value="$PROJECT_DIR$/php_includes/image_resize.php" />
-        <option value="$PROJECT_DIR$/php_includes/photo_system.php" />
         <option value="$PROJECT_DIR$/php_includes/game_notifications.php" />
         <option value="$PROJECT_DIR$/playGame.php" />
         <option value="$PROJECT_DIR$/js/game_invitation.js" />
         <option value="$PROJECT_DIR$/php_includes/pageTop_template.php" />
-        <option value="$PROJECT_DIR$/js/post.js" />
         <option value="$PROJECT_DIR$/js/uploadScript.js" />
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/style/stylesheet.css" />
         <option value="$PROJECT_DIR$/Login.php" />
         <option value="$PROJECT_DIR$/php_includes/db_connect.php" />
-        <option value="$PROJECT_DIR$/live_search.php" />
         <option value="$PROJECT_DIR$/game_notifications.php" />
         <option value="$PROJECT_DIR$/js/search_friends.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/php_includes/ajaxUpload.php" />
+        <option value="$PROJECT_DIR$/php_includes/photo_system.php" />
+        <option value="$PROJECT_DIR$/js/post.js" />
+        <option value="$PROJECT_DIR$/php_includes/image_upload.php" />
         <option value="$PROJECT_DIR$/php_includes/db_create_tables.php" />
         <option value="$PROJECT_DIR$/profile.php" />
+        <option value="$PROJECT_DIR$/live_search.php" />
+        <option value="$PROJECT_DIR$/style/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -211,7 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +332,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,6 +352,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FaceFeka\images" />
       <recent name="C:\xampp\htdocs\FaceFeka" />
       <recent name="C:\xampp\htdocs\FaceFeka\php_includes" />
       <recent name="C:\Users\idan\PhpstormProjects\FaceFeka\js" />
@@ -275,7 +371,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.playGame.php">
-    <configuration name="ajaxUpload.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8090/FaceFeka/php_includes/ajaxUpload.php">
+    <configuration name="image_upload.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8090/FaceFeka/php_includes/image_upload.php">
       <method v="2" />
     </configuration>
     <configuration name="playGame.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8090/FaceFeka/playGame.php">
@@ -284,7 +380,7 @@
     <configuration name="profile.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8090/FaceFeka/profile.php">
       <method v="2" />
     </configuration>
-    <configuration name="uploadScript.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="uploadScript.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="upload_image_form.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/upload_image_form.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <configuration name="profile.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/profile.php">
@@ -295,8 +391,8 @@
         <item itemvalue="JavaScript Debug.playGame.php" />
         <item itemvalue="PHP Script.profile.php" />
         <item itemvalue="JavaScript Debug.profile.php" />
-        <item itemvalue="JavaScript Debug.ajaxUpload.php" />
-        <item itemvalue="Node.js.uploadScript.js" />
+        <item itemvalue="JavaScript Debug.image_upload.php" />
+        <item itemvalue="Node.js.upload_image_form.js" />
       </list>
     </recent_temporary>
   </component>
@@ -316,12 +412,14 @@
       <workItem from="1561969642691" duration="683000" />
       <workItem from="1561970339905" duration="482000" />
       <workItem from="1561970879968" duration="113604000" />
-      <workItem from="1562517460051" duration="172236000" />
+      <workItem from="1562517460051" duration="180077000" />
+      <workItem from="1563551722307" duration="9138000" />
+      <workItem from="1564573180344" duration="1451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321302000" />
+    <option name="totallyTimeSpent" value="339732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,12 +432,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22239032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.20499243" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29787233" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -349,7 +448,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,164 +485,23 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/search_friends.js</url>
+          <url>file://$PROJECT_DIR$/js/friends.js</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>22</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>29</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>21</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>47</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>52</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>53</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>35</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>3</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>5</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>62</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/uploadScript.js</url>
-          <line>25</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_includes/ajaxUpload.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_includes/ajaxUpload.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_includes/ajaxUpload.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_includes/ajaxUpload.php</url>
-          <line>50</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_includes/ajaxUpload.php</url>
-          <line>63</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_includes/ajaxUpload.php</url>
-          <line>60</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/profile.php</url>
-          <line>291</line>
+          <line>263</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php_includes/pageBottom_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.805/call_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.298/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.927/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.489/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" column="109" lean-forward="true" selection-start-line="53" selection-start-column="109" selection-end-line="53" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.489/head.php" />
     <entry file="file://$PROJECT_DIR$/js/comment_form.js" />
     <entry file="file://$PROJECT_DIR$/js/ajaxCalls.js" />
-    <entry file="file://$PROJECT_DIR$/php_includes/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/Post.php" />
     <entry file="file://$PROJECT_DIR$/images/magnifier.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -557,42 +515,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php_includes/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/el@professor.com/.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/profile.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/test.php" />
+    <entry file="file://$PROJECT_DIR$/user/el@professor.com/.png" />
+    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/.png" />
+    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/profile.png" />
     <entry file="file://$PROJECT_DIR$/../../php/pear/PHP/CodeCoverage/Driver/Xdebug.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-80" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/pictures/man.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/thumb/man.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/pictures/man.png" />
+    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/thumb/man.png" />
     <entry file="http://localhost:8090/FaceFeka/js/uploadScript.js">
       <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/thumb/boy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/pictures/boy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/thumb/boy.png" />
+    <entry file="file://$PROJECT_DIR$/user/danielle@kahana.com/pictures/boy.png" />
     <entry file="file://$PROJECT_DIR$/../../php/php.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -600,37 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajaxModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/signup_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/ariel@gmail.com/profile.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_includes/photo_system.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_includes/image_resize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/ariel@gmail.com/profile.JPG" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -638,23 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/game_invitation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_includes/ajaxUpload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="61" column="117" lean-forward="true" selection-start-line="61" selection-start-column="117" selection-end-line="61" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game_invitation.js" />
     <entry file="file://$PROJECT_DIR$/php_includes/check_login_status.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -669,77 +561,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/uploadScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game_notifications.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playGame.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/info.php" />
+    <entry file="file://$PROJECT_DIR$/login_template.php" />
+    <entry file="file://$PROJECT_DIR$/playGame.php" />
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="485" column="17" selection-start-line="485" selection-start-column="17" selection-end-line="485" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -750,41 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php_includes/pageTop_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/live_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="93" column="34" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/search_friends.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_includes/db_create_tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -792,17 +586,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/will@h.com/profile.png" />
+    <entry file="file://$PROJECT_DIR$/images/headerSleeve.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/signup_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/photo_system.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-start-column="3" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/image_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/ross@geller.com/profile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/upload_image_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="314" column="5" selection-start-line="314" selection-start-column="2" selection-end-line="314" selection-end-column="5" />
+        <state relative-caret-position="3791">
+          <caret line="223" column="4" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/db_create_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajaxModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/pageTop_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/image_resize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/friends.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_includes/pageBottom_template.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="158" column="22" lean-forward="true" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
         </state>
       </provider>
     </entry>

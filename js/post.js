@@ -2,31 +2,31 @@ function emptyElement(x){
     _(x).innerHTML = "";
 }
 
-function post_it(full_name){
-    var text = _("postbody").value;
-    var public = _("public_per").checked;
-    var private = _("private_per").checked;
-    if(text == ""){
-        return;
-    } else {
-        var ajax = ajaxObj("POST", "profile.php");
-        ajax.onreadystatechange = function() {
-            if(ajaxReturn(ajax) == true) {
-                if(ajax.responseText == "post_failed"){
-                    _("status").innerHTML = "Your post didn't posted, please try again later.";
-                }
-                else {
-                    var postid = ajax.responseText;
-                    _("tbody").insertAdjacentHTML('afterbegin', "<tr><td><div class='post-wrapper'><div id='post-body'>"+
-                        text+"</div> <form id='like' onsubmit='return false;'> <input id='likebtn"+postid+"' 'post-id='"+postid+"' type = 'submit' name = 'like_btn' value = 'Like' onclick='like("+postid+")' > </form> <div id='posted_by'>"+ full_name +"</div> <div id='likesCount"+postid+"'>0 Likes</div> <form name='commentform' id='commentform' onsubmit='return false;'> <textarea id='commentbody"+postid+"' row='3' cols='50'></textarea> <input type='submit' name='comment' value='Comment' onclick='comment_it("+postid+")'> </form> <hr/></br></div></td></tr>");
-                    _("postbody").value="";
-                }
-            }
-        }
-
-        ajax.send("t="+text+"&p="+public);
-    }
-}
+// function post_it(full_name){
+//     var text = _("postbody").value;
+//     var public = _("public_per").checked;
+//     var private = _("private_per").checked;
+//     if(text == ""){
+//         return;
+//     } else {
+//         var ajax = ajaxObj("POST", "profile.php");
+//         ajax.onreadystatechange = function() {
+//             if(ajaxReturn(ajax) == true) {
+//                 if(ajax.responseText == "post_failed"){
+//                     _("status").innerHTML = "Your post didn't posted, please try again later.";
+//                 }
+//                 else {
+//                     var postid = ajax.responseText;
+//                     _("tbody").insertAdjacentHTML('afterbegin', "<tr><td><div class='post-wrapper'><div id='post-body'>"+
+//                         text+"</div> <form id='like' onsubmit='return false;'> <input id='likebtn"+postid+"' 'post-id='"+postid+"' type = 'submit' name = 'like_btn' value = 'Like' onclick='like("+postid+")' > </form> <div id='posted_by'>"+ full_name +"</div> <div id='likesCount"+postid+"'>0 Likes</div> <form name='commentform' id='commentform' onsubmit='return false;'> <textarea id='commentbody"+postid+"' row='3' cols='50'></textarea> <input type='submit' name='comment' value='Comment' onclick='comment_it("+postid+")'> </form> <hr/></br></div></td></tr>");
+//                     _("postbody").value="";
+//                 }
+//             }
+//         }
+//
+//         ajax.send("t="+text+"&p="+public);
+//     }
+// }
 
 function like(id) {
     var postid = id;

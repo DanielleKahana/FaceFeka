@@ -34,7 +34,7 @@ if(isset($_POST['fid'])) {
 if(isset($_POST["n"])) {
     $s1 = $_POST["n"];
     if($s1 == '*') {
-        $sql = "select * from users where id != '$userid'";
+        $sql = "select * from users where id != '$userid' ORDER BY f_name ASC ";
     }
     else {
         $sql = "select * from users where concat(f_name,' ',l_name) like '$s1%' AND id != '$userid'";
@@ -61,7 +61,7 @@ if(isset($_POST["n"])) {
         $friend_id = $row['id'];
         $avatar = $row['avatar'];
         //Check if user in list is my friend already
-        $sql = "SELECT * FROM friends WHERE user_id='$userid' AND friend_id='$friend_id'";
+        $sql = "SELECT * FROM friends WHERE (user_id='$userid' AND friend_id='$friend_id')";
         $friends_query = mysqli_query($db_connect, $sql);
         $rowCount = mysqli_num_rows($friends_query);
         if($rowCount > 0) {

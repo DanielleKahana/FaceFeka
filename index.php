@@ -16,7 +16,7 @@ if($user_ok) {
     <link rel="stylesheet" href="style/stylesheet.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <script src="js/main.js"></script>
-    <script src="js/search_friends.js"></script>
+    <script src="js/friends.js"></script>
     <script src="js/ajaxModule.js"></script>
     <script src="js/login_form.js"></script>
     <script src="js/signup_form.js"></script>

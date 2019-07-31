@@ -10,7 +10,7 @@ function login(){
         _("loginbtn").style.display = "none";
         _("login-status").innerHTML = "<img class='loading' src='images/loading.gif'>";
         // _("login-status").innerHTML = 'please wait ...';
-        var ajax = ajaxObj("POST", "Login.php");
+        var ajax = ajaxObj("POST", "login.php");
         ajax.onreadystatechange = function() {
             if(ajaxReturn(ajax) == true) {
                 var res = ajax.responseText;

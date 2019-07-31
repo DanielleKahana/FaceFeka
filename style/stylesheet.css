@@ -31,7 +31,7 @@ h1, p {
 
 #pageTop {
     height: 90px;
-    background: url("headerSleeve.png") repeat-x;
+    background: url("../images/headerSleeve.png") repeat-x;
 }
 
 #pageTop > #pageTopWrapper {
@@ -74,8 +74,6 @@ h1, p {
 
 
 #pageTop > #pageTopWrapper > #pageTopRest > #links > .topnav  {
-    /*width: 400px;*/
-    /*display:inline-block;*/
     width: 200px;
 }
 
@@ -165,13 +163,14 @@ h1, p {
 
 
 #pageBottom {
-    background: url("headerSleeve.png") repeat-x;
+    background: url("../images/headerSleeve.png") repeat-x;
     position: inherit;
     left: 0;
     bottom: 0;
     color: white;
     text-align: center;
     padding: 24px;
+
 }
 
 #signup-section {

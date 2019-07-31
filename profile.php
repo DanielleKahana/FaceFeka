@@ -167,34 +167,6 @@ if(isset($_POST['postid'])) {
     }
 }
 
-if(isset($_POST['t'])) {
-    $msg = "";
-    $text = htmlspecialchars($_POST['t'], ENT_QUOTES);
-    $per = $_POST['p'];
-
-    if($per == 'true') {
-        $permission = 'Public';
-    } else {
-        $permission = 'Private';
-    }
-    $sql = "INSERT INTO posts (body,userid,posted_at,permission) VALUES('$text', '$userid', NOW() , '$permission')";
-    $query = mysqli_query($db_connect, $sql);
-    if(!$query) {
-        echo "post_failed";
-        exit();
-    } else {
-        $last_id = mysqli_insert_id($db_connect);
-
-        $v = $_FILES[$postimage]['name'];
-        if (isset($_FILES['post_image']['name']) && $_FILES['post_image']['tmp_name'] != "") {
-           $msg = uploadImages($last_id, $db_connect, $userid);
-        }
-
-        echo $v;
-        exit();
-    }
-}
-
 if(isset($_POST['c'])) {
     $text = htmlspecialchars($_POST['c'],ENT_QUOTES);
     $postid = $_POST['post'];
@@ -253,8 +225,8 @@ if($current_profile_id == $userid && $user_ok == true){
     <script src="js/main.js"></script>
     <script src="js/ajaxModule.js"></script>
     <script src="js/post.js"></script>
-    <script src="js/search_friends.js"></script>
-    <script src="js/uploadScript.js"></script>
+    <script src="js/friends.js"></script>
+    <script src="js/upload_image_form.js"></script>
 </head>
 <body>
 <?php include_once("php_includes/pageTop_template.php"); ?>
