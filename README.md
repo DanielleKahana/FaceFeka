@@ -12,6 +12,7 @@ Facebook clone is my final project to Internet Technologies course at Afeka Coll
 - Live search bar to find other users who signed up
 - Adding other users as friends (No friend request)
 - Invite users to play a multiplayer game (FlappyBird)
+- Upload profile picture
 
 # Technologies
 -	JavaScript
