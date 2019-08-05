@@ -11,7 +11,7 @@ FaceFeka is a facebook clone built as part of the final project of Internet Tech
 - Commenting on posts
 - Live search bar to find other users who signed up
 - Adding other users as friends (No friend request)
-- Invite users to play a multiplayer game (<a href="https://github.com/DanielleKahana/flappyBird">FlappyBird)
+- Invite users to play a multiplayer game (<a href="https://github.com/DanielleKahana/flappyBird">FlappyBird</a>)
 - Upload profile picture
 
 # Technologies
