@@ -1,5 +1,5 @@
 # <img src="images/favicon.png"> FaceFeka
-Facebook clone is my final project to Internet Technologies course at Afeka College of Engineering. 
+FaceFeka is a facebook clone built as part of the final project of Internet Technologies course at Afeka College of Engineering. 
 
 # Features
 - Signup
@@ -11,7 +11,7 @@ Facebook clone is my final project to Internet Technologies course at Afeka Coll
 - Commenting on posts
 - Live search bar to find other users who signed up
 - Adding other users as friends (No friend request)
-- Invite users to play a multiplayer game (FlappyBird)
+- Invite users to play a multiplayer game (<a href="https://github.com/DanielleKahana/flappyBird">FlappyBird)
 - Upload profile picture
 
 # Technologies
@@ -23,6 +23,7 @@ Facebook clone is my final project to Internet Technologies course at Afeka Coll
 -	MySQL
 -	CSS
 -	HTML
+- Node.js
 
 # Screenshots
 
